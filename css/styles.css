@@ -1,0 +1,53 @@
+body {
+    background-color: #272021;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #322c2e;
+    padding: 1rem 2rem;    
+}
+
+.navbar-brand {
+    color: orangered
+}
+
+.boton {
+    background: none;
+    border: none;
+    color: white;
+}
+
+#navBusqueda {
+    border: 0px;
+}
+
+.container h3 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.17em;
+    letter-spacing: .03em;
+    margin-block-end: 1em;
+}
+
+/* CARDS */ 
+
+
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bolder;
+    overflow-wrap: break-word;
+}
+
+.card-img-top {
+  max-height: 335px; 
+  object-fit: cover;
+}
